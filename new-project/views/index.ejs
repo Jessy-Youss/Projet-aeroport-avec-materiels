@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+<title>Accueil </title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="stylesheets/style.css">
+
+</head>
+
+
+<body>
+
+<br>
+  <!--En tête-->
+  <div class="container-fluid row" id ="contener" >
+    <div class="col-md-12 col-sm-12 col-lg-12 col-ld-12">
+        <div style="border-bottom: solid;"><h1 >Identification</h1> </div>
+    </div>
+ </div>
+   
+
+
+<div class="container">
+  
+     <br> <br>
+<!--Div Scanner le billet-->  
+    <div class="row">
+      <div class="col-md-3"></div>
+<div class="col-md-6 col-sm-6 btn  btn-light" data-toggle="modal" data-target="#ModalPeser" id="num"> 
+    <h4 class="text-center">Scanner le billet</h4>
+    <img src="images/scan.jpg" class="d-block mx-auto"  style="width: 200px; ">
+    <br>
+</div>
+<div class="col-md-3"></div>
+
+<!--Page modal identification-->
+<div class="modal fade" id="ModalPeser" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle">Identification</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h6 style= "text-decoration: underline";> Scanner le billet</h6>
+        <img src ="images/tenor.gif" style="width: 200px; text-align: center;" >
+        <!--Input-->
+        <input type="text" id="txt">
+        <!--Button-->
+        <button id="btn">Valider</button>
+      </div>
+     
+      <!--Loading-->
+      <div class="modal-footer" id = "FOOTER_IDENTIFICATION_LOADING">
+        <button class="btn btn-primary" id="BTN_IDENTIFICATION1" >
+          <span class="spinner-border spinner-border-sm"></span>
+          Loading...
+        </button>
+      </div>
+       <!--Réesayer-->
+       <div class="modal-footer" id = "FOOTER_IDENTIFICATION_REESAYER">
+        <button class="btn btn-danger " id="BTN_IDENTIFICATION2" >
+          <span class="glyphicon glyphicon-asterisk"></span>
+         Réessayer
+        </button>
+      </div>
+        <!--Suivant-->
+        <div class="modal-footer" id = "FOOTER_IDENTIFICATION_SUIVANT">
+          <button  class="btn btn-success" id="BTN_IDENTIFICATION3" >
+           Suivant
+          </button>
+        </div>
+  
+
+    </div>
+  </div>
+</div>
+
+</div>
+ </div>
+
+ <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+   integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+   crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+   integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+   crossorigin="anonymous"></script>
+ <script src="javascripts/scan.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
