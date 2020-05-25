@@ -9,6 +9,6 @@ Attention à bien installer les modules à l'aide de la commade 'npm install' à
 
 # Lancer le server
 Pour lancer le server il suffit d'entrer la commande 'npm start' à l'intérieur du dossier 'new-project'.
-L'application écoute le port 3030.
+L'application écoute le port 3000.
 
 
