@@ -4,7 +4,7 @@ IHM d'un comptoir d'enregistrement (aéroport)  qui prend en charge le voyageur 
 # Matériels
 Balance (USB / RS232), douchette (USB).
 
-# Attention
+# Modules
 Attention à bien installer les modules à l'aide de la commade 'npm install' à l'intérieur du dossier 'new-project'.
 
 # Lancer le server
