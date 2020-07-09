@@ -1,5 +1,5 @@
 # Projet
-IHM d'un comptoir d'enregistrement (aéroport)  qui prend en charge le voyageur codé en Node.js & Express.js (Back end) + jQuery & AJAX & Boostrap (Front end).
+IHM d'un comptoir d'enregistrement (aéroport) qui prend en charge le voyageur codé en Node.js & MySQL (Back end) + jQuery - AJAX - Boostrap (Front end).
 
 # Matériels
 Balance (USB / RS232), douchette (USB).
