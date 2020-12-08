@@ -8,7 +8,7 @@ const parser = port.pipe(new Readline({ delimiter: '\n' }));
 
 var mysql = require ('./BDD')
 
-/* GET home page. */
+
 router.get('/', function(req, res, next) {
   res.render('index');
 });
